@@ -1,4 +1,4 @@
-public class Team extends Player {
+public class Team extends Baseball {
     
     public String toString(){
         return new String("");

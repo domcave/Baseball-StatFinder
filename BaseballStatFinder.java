@@ -7,12 +7,12 @@ public class BaseballStatFinder{
 
     private static Scanner keyboard = new Scanner(System.in);
     public static void main(String[] args)throws IOException{
-       String[] playerInfo = getPlayer();
+       Player player1 = getPlayer();
     }
 
 
     // This method handles getting the general information of a specific player
-    private static String[] getPlayer() throws IOException{
+    private static Player getPlayer() throws IOException{
 
         String[] playerInfo = new String[24];
         System.out.print("Enter the first and last name of the player: ");
@@ -44,7 +44,7 @@ public class BaseballStatFinder{
         }
 
         scan.close();
-        return playerInfo;
+        return new Player(playerInfo);
 
     }
 }
