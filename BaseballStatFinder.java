@@ -3,7 +3,7 @@ import java.io.*;
 import java.net.*;
 
 
-public class BaseballStats{
+public class BaseballStatFinder{
 
     private static Scanner keyboard = new Scanner(System.in);
     public static void main(String[] args)throws IOException{
